@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 2
+        "patch": 3
     },
     "keywords": [
         "Berachain",
@@ -17,7 +17,7 @@
         "Swap"
     ],
     "logoURI": "",
-    "timestamp": "2024-12-04T16:27:11.679Z",
+    "timestamp": "2024-12-04T21:31:02.363Z",
     "tokens": [
         {
             "chainId": 80000,
@@ -26,7 +26,8 @@
             "symbol": "USDC",
             "decimals": 6,
             "extensions": {
-                "coingeckoId": "usd-coin"
+                "coingeckoId": "usd-coin",
+                "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
             }
         },
         {
@@ -36,7 +37,8 @@
             "symbol": "aUSD₮",
             "decimals": 6,
             "extensions": {
-                "coingeckoId": "tether"
+                "coingeckoId": "tether",
+                "pythPriceId": "0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b"
             }
         },
         {
@@ -46,7 +48,8 @@
             "symbol": "WETH",
             "decimals": 18,
             "extensions": {
-                "coingeckoId": "weth"
+                "coingeckoId": "weth",
+                "pythPriceId": "0x9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6"
             }
         }
     ]
