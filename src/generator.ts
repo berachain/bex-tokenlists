@@ -20,8 +20,10 @@ import {
  *
  * Run via `npm run generate`
  */
-async function run() {
-  const tokenlistsToBuild = getTokenlistsToBuild()
+async function run(tokenlistName?: string) {
+  const tokenlistsToBuild = tokenlistName
+    ? [tokenlistName]
+    : getTokenlistsToBuild()
   for (const tokenlist of tokenlistsToBuild) {
     console.log(chalk.bgGreen(`Building tokenlist: ${tokenlist}`))
     await build(tokenlist)
@@ -33,7 +35,11 @@ async function run() {
 
 ;(async () => {
   try {
-    await run()
+    if (process.argv.length > 2) {
+      await run(process.argv[2])
+    } else {
+      await run()
+    }
   } catch (error) {
     console.error(error)
     process.exit(1)
@@ -50,15 +56,19 @@ async function run() {
  */
 
 async function build(tokenlistName: string) {
-  let network: Network
   let allTokens: TokenInfo[] = []
   const { metadata, tokens, overwrites, existingTokenList } =
     await getTokenlistSrc(tokenlistName)
 
-  for (network in tokens) {
+  for (const [network, tokenAddresseUnchecked] of Object.entries(tokens) as [
+    Network,
+    string[]
+  ][]) {
     console.log(chalk.cyan(`Starting build for ${network}`))
     // format to hashed value
-    const tokenAddresses = tokens[network].map((token) => getAddress(token))
+    const tokenAddresses = tokenAddresseUnchecked.map((token) =>
+      getAddress(token)
+    )
 
     console.time(chalk.cyan(`Fetched onchain metadata for chain ${network}`))
 

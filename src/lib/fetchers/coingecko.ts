@@ -8,9 +8,12 @@ const baseUrl = process.env.COINGECKO_API_KEY
   ? 'https://pro-api.coingecko.com/api/v3'
   : 'https://api.coingecko.com/api/v3'
 
-const apiKeyParam = process.env.COINGECKO_API_KEY
-  ? `x_cg_pro_api_key=${process.env.COINGECKO_API_KEY}`
-  : ''
+let apiKeyParam = ''
+if (process.env.COINGECKO_API_KEY) {
+  apiKeyParam = `x_cg_pro_api_key=${process.env.COINGECKO_API_KEY}`
+} else if (process.env.COINGECKO_DEMO_KEY) {
+  apiKeyParam = `x_cg_demo_api_key=${process.env.COINGECKO_DEMO_KEY}`
+}
 
 let callIndex = 0
 

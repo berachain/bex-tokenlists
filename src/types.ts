@@ -13,6 +13,7 @@ export enum Network {
   Fantom = '250',
   Fraxtal = '252',
   Mode = '34443',
+  Cartio = '80000',
 }
 
 export interface Config {
@@ -38,7 +39,7 @@ export type TokenListMetadata = Pick<
   'name' | 'logoURI' | 'keywords' | 'version'
 >
 
-export type TokensForList = Record<Network, string[]>
+export type TokensForList = Partial<Record<Network, string[]>>
 export type OverwritesForList = Partial<
   Record<Network, Record<string, Partial<TokenInfo>>>
 >

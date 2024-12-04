@@ -6,7 +6,10 @@ import ERC20_ABI from '../abi/ERC20.abi.json'
 import _ from 'lodash'
 
 function getProvider(network: Network): InfuraProvider | JsonRpcProvider {
-  if (!process.env.INFURA_KEY) throw new Error('Missing INFURA_KEY env var')
+  if (network !== Network.Cartio && !process.env.INFURA_KEY) {
+    throw new Error('Missing INFURA_KEY env var')
+  }
+
   const networkConfig = config[network]
   if (networkConfig.rpc) {
     return new JsonRpcProvider(networkConfig.rpc)

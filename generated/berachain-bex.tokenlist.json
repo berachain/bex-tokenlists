@@ -1,0 +1,53 @@
+{
+    "name": "Bex",
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 2
+    },
+    "keywords": [
+        "Berachain",
+        "DeFi",
+        "DEX",
+        "AMM",
+        "Exchange",
+        "Liquidity",
+        "Pool",
+        "Token",
+        "Swap"
+    ],
+    "logoURI": "",
+    "timestamp": "2024-12-04T16:27:11.679Z",
+    "tokens": [
+        {
+            "chainId": 80000,
+            "address": "0x015fd589F4f1A33ce4487E12714e1B15129c9329",
+            "name": "USDC",
+            "symbol": "USDC",
+            "decimals": 6,
+            "extensions": {
+                "coingeckoId": "usd-coin"
+            }
+        },
+        {
+            "chainId": 80000,
+            "address": "0x164A2dE1bc5dc56F329909F7c97Bae929CaE557B",
+            "name": "aUSD₮",
+            "symbol": "aUSD₮",
+            "decimals": 6,
+            "extensions": {
+                "coingeckoId": "tether"
+            }
+        },
+        {
+            "chainId": 80000,
+            "address": "0x2d93FbcE4CffC15DD385A80B3f4CC1D4E76C38b3",
+            "name": "WETH",
+            "symbol": "WETH",
+            "decimals": 18,
+            "extensions": {
+                "coingeckoId": "weth"
+            }
+        }
+    ]
+}
