@@ -1,10 +1,10 @@
 export default {
   name: 'cartio',
-  rpc: `http://localhost:8545`,
+  rpc: `https://cottonzell-eth-cartio.berachain.com`,
   coingecko: {
-    platformId: 'berachain',
+    platformId: 'cartio',
   },
-  trustWalletNetwork: 'berachain',
+  trustWalletNetwork: 'cartio',
   addresses: {
     multicaller: '0xcA11bde05977b3631167028862bE2a173976CA11',
   },

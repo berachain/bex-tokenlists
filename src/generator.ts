@@ -201,9 +201,11 @@ async function setTokenInfo(
     return formatMetadata(metadata)
   }
 
-  const coingeckoMetadata = await fetchCoingeckoMetadata(network, address)
-  // Again, we want the coingecko data to be used only if it's missing from existing data.
-  metadata = merge(coingeckoMetadata, metadata)
+  // TODO: Add back once coingecko supports berachain
+
+  // const coingeckoMetadata = await fetchCoingeckoMetadata(network, address)
+  // // Again, we want the coingecko data to be used only if it's missing from existing data.
+  // metadata = merge(coingeckoMetadata, metadata)
 
   if (satisfiesTokenInfoSchema({ token: metadata, includeOptionals: false })) {
     return formatMetadata(metadata)

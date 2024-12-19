@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 3
+        "patch": 4
     },
     "keywords": [
         "Berachain",
@@ -17,7 +17,7 @@
         "Swap"
     ],
     "logoURI": "",
-    "timestamp": "2024-12-04T21:31:02.363Z",
+    "timestamp": "2024-12-19T17:11:37.607Z",
     "tokens": [
         {
             "chainId": 80000,
@@ -51,6 +51,20 @@
                 "coingeckoId": "weth",
                 "pythPriceId": "0x9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6"
             }
+        },
+        {
+            "chainId": 80000,
+            "address": "0x6969696969696969696969696969696969696969",
+            "name": "Wrapped Bera",
+            "symbol": "WBERA",
+            "decimals": 18
+        },
+        {
+            "chainId": 80000,
+            "address": "0xd137593CDB341CcC78426c54Fb98435C60Da193c",
+            "name": "Honey",
+            "symbol": "HONEY",
+            "decimals": 18
         }
     ]
 }

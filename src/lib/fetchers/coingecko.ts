@@ -30,7 +30,11 @@ export async function fetchCoingeckoMetadata(
         await sleep(3000)
       }
     }
-
+    console.log(
+      `${baseUrl}/coins/${
+        config[network].coingecko.platformId
+      }/contract/${address.toLowerCase()}?${apiKeyParam}`
+    )
     const response = await fetch(
       `${baseUrl}/coins/${
         config[network].coingecko.platformId
