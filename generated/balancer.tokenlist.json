@@ -12062,7 +12062,7 @@
             "name": "Blue Pepe (v2)",
             "symbol": "BPEPE",
             "decimals": 18,
-            "logoURI": "hhttps://dd.dexscreener.com/ds-data/tokens/fantom/0x46e64b8cd1811ddc9899d607f24debc46b7a611c.png?size=lg&key=076652"
+            "logoURI": "https://dd.dexscreener.com/ds-data/tokens/fantom/0x46e64b8cd1811ddc9899d607f24debc46b7a611c.png?size=lg&key=076652"
         },
         {
             "chainId": 250,
