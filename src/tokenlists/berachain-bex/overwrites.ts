@@ -23,5 +23,12 @@ export const overwrites: OverwritesForList = {
           '0x9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6', // WETH/USD
       },
     },
+    '0xFa5bf670A92AfF186E5176aA55690E0277010040': {
+      extensions: {
+        coingeckoId: 'bitcoin',
+        pythPriceId:
+          '0xc5e0e0c92116c0c070a242b254270441a6201af680a33e0381561c59db3266c9', // WBTC/USD
+      },
+    },
   },
 }

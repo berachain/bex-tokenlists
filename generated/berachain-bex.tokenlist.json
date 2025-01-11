@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 4
+        "patch": 5
     },
     "keywords": [
         "Berachain",
@@ -17,7 +17,7 @@
         "Swap"
     ],
     "logoURI": "",
-    "timestamp": "2024-12-19T17:11:37.607Z",
+    "timestamp": "2025-01-11T20:48:46.570Z",
     "tokens": [
         {
             "chainId": 80000,
@@ -65,6 +65,17 @@
             "name": "Honey",
             "symbol": "HONEY",
             "decimals": 18
+        },
+        {
+            "chainId": 80000,
+            "address": "0xFa5bf670A92AfF186E5176aA55690E0277010040",
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "extensions": {
+                "coingeckoId": "bitcoin",
+                "pythPriceId": "0xc5e0e0c92116c0c070a242b254270441a6201af680a33e0381561c59db3266c9"
+            }
         }
     ]
 }
