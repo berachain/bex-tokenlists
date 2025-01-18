@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 7
+        "patch": 8
     },
     "keywords": [
         "Berachain",
@@ -17,7 +17,7 @@
         "Swap"
     ],
     "logoURI": "",
-    "timestamp": "2025-01-18T20:37:37.737Z",
+    "timestamp": "2025-01-18T21:07:52.596Z",
     "tokens": [
         {
             "chainId": 80000,
@@ -82,7 +82,11 @@
             "address": "0x9c9C1f1c9794DA8A4EB432925becE646E1eF3AA8",
             "name": "USDS",
             "symbol": "USDS",
-            "decimals": 18
+            "decimals": 18,
+            "extensions": {
+                "coingeckoId": "usds",
+                "pythPriceId": "0x77f0971af11cc8bac224917275c1bf55f2319ed5c654a1ca955c82fa2d297ea1"
+            }
         },
         {
             "chainId": 80000,

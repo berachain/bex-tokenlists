@@ -30,5 +30,12 @@ export const overwrites: OverwritesForList = {
           '0xc9d8b075a5c69303365ae23633d4e085199bf5c520a3b90fed1322a0342ffc33', // WBTC/USD
       },
     },
+    '0x9c9C1f1c9794DA8A4EB432925becE646E1eF3AA8': {
+      extensions: {
+        coingeckoId: 'usds',
+        pythPriceId:
+          '0x77f0971af11cc8bac224917275c1bf55f2319ed5c654a1ca955c82fa2d297ea1', // USDs/USD
+      },
+    },
   },
 }
