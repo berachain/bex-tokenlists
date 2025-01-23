@@ -12,6 +12,7 @@ import fantom from './fantom'
 import fraxtal from './fraxtal'
 import mode from './mode'
 import cartio from './cartio'
+import oogaBooga from './ooga-booga'
 
 const config: Configs = {
   [Network.Arbitrum]: arbitrum,
@@ -27,6 +28,7 @@ const config: Configs = {
   [Network.Fraxtal]: fraxtal,
   [Network.Mode]: mode,
   [Network.Cartio]: cartio,
+  [Network.OogaBooga]: oogaBooga,
 }
 
 export default config

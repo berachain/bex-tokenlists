@@ -14,6 +14,7 @@ export enum Network {
   Fraxtal = '252',
   Mode = '34443',
   Cartio = '80000',
+  OogaBooga = '80094',
 }
 
 export interface Config {
