@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 1
+        "patch": 2
     },
     "keywords": [
         "Berachain",
@@ -17,7 +17,7 @@
         "Swap"
     ],
     "logoURI": "",
-    "timestamp": "2025-01-23T16:12:52.644Z",
+    "timestamp": "2025-01-25T20:39:05.642Z",
     "tokens": [
         {
             "chainId": 80094,
@@ -38,6 +38,27 @@
             "address": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
             "name": "Honey",
             "symbol": "HONEY",
+            "decimals": 18
+        },
+        {
+            "chainId": 80094,
+            "address": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
+            "name": "USD₮0",
+            "symbol": "USD₮0",
+            "decimals": 6
+        },
+        {
+            "chainId": 80094,
+            "address": "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",
+            "name": "BYUSD",
+            "symbol": "BYUSD",
+            "decimals": 6
+        },
+        {
+            "chainId": 80094,
+            "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+            "name": "WETH",
+            "symbol": "WETH",
             "decimals": 18
         }
     ]

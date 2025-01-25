@@ -22,7 +22,7 @@ function convertTokenInfoToMap(tokenInfo: TokenInfo[]): PartialTokenInfoMap {
 async function fetchTrustWalletMetadata(
   network: Network
 ): Promise<PartialTokenInfoMap> {
-  if (network === Network.Cartio) return {}
+  if (network === Network.Cartio || network === Network.OogaBooga) return {}
 
   try {
     // eslint-disable-next-line max-len
