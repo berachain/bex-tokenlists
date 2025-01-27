@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 2
+        "patch": 3
     },
     "keywords": [
         "Berachain",
@@ -17,7 +17,7 @@
         "Swap"
     ],
     "logoURI": "",
-    "timestamp": "2025-01-25T20:39:05.642Z",
+    "timestamp": "2025-01-27T17:47:21.120Z",
     "tokens": [
         {
             "chainId": 80094,
@@ -45,21 +45,33 @@
             "address": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
             "name": "USD₮0",
             "symbol": "USD₮0",
-            "decimals": 6
+            "decimals": 6,
+            "extensions": {
+                "coingeckoId": "tether",
+                "pythPriceId": "0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b"
+            }
         },
         {
             "chainId": 80094,
             "address": "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",
             "name": "BYUSD",
             "symbol": "BYUSD",
-            "decimals": 6
+            "decimals": 6,
+            "extensions": {
+                "coingeckoId": "paypal-usd",
+                "pythPriceId": "0xc1da1b73d7f01e7ddd54b3766cf7fcd644395ad14f70aa706ec5384c59e76692"
+            }
         },
         {
             "chainId": 80094,
             "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
             "name": "WETH",
             "symbol": "WETH",
-            "decimals": 18
+            "decimals": 18,
+            "extensions": {
+                "coingeckoId": "weth",
+                "pythPriceId": "0x9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6"
+            }
         }
     ]
 }

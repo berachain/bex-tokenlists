@@ -1,7 +1,7 @@
 import { Network, OverwritesForList } from '../../types'
 
 export const overwrites: OverwritesForList = {
-  [Network.Cartio]: {
+  [Network.OogaBooga]: {
     '0x015fd589F4f1A33ce4487E12714e1B15129c9329': {
       extensions: {
         coingeckoId: 'usd-coin',
@@ -9,14 +9,14 @@ export const overwrites: OverwritesForList = {
           '0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a', // USDC/USD
       },
     },
-    '0x164A2dE1bc5dc56F329909F7c97Bae929CaE557B': {
+    '0x779Ded0c9e1022225f8E0630b35a9b54bE713736': {
       extensions: {
         coingeckoId: 'tether',
         pythPriceId:
           '0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b', // USDT/USD
       },
     },
-    '0x2d93FbcE4CffC15DD385A80B3f4CC1D4E76C38b3': {
+    '0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590': {
       extensions: {
         coingeckoId: 'weth',
         pythPriceId:
