@@ -2,18 +2,18 @@ import { Network, OverwritesForList } from '../../types'
 
 export const overwrites: OverwritesForList = {
   [Network.OogaBooga]: {
-    '0x6969696969696969696969696969696969696969': {
-      extensions: {
-        pythPriceId:
-          '0x962088abcfdbdb6e30db2e340c8cf887d9efb311b1f2f17b155a63dbb6d40265', // WBERA/USD,
-      },
-    },
-    '0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce': {
-      extensions: {
-        pythPriceId:
-          '0xf67b033925d73d43ba4401e00308d9b0f26ab4fbd1250e8b5407b9eaade7e1f4', // HONEY/USD,
-      },
-    },
+    // '0x6969696969696969696969696969696969696969': {
+    //   extensions: {
+    //     pythPriceId:
+    //       '0x962088abcfdbdb6e30db2e340c8cf887d9efb311b1f2f17b155a63dbb6d40265', // WBERA/USD,
+    //   },
+    // },
+    // '0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce': {
+    //   extensions: {
+    //     pythPriceId:
+    //       '0xf67b033925d73d43ba4401e00308d9b0f26ab4fbd1250e8b5407b9eaade7e1f4', // HONEY/USD,
+    //   },
+    // },
     '0x549943e04f40284185054145c6E4e9568C1D3241': {
       extensions: {
         coingeckoId: 'usd-coin',
