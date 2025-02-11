@@ -200,5 +200,12 @@ export const overwrites: OverwritesForList = {
           '0x0caec284d34d836ca325cf7b3256c078c597bc052fbd3c0283d52b581d68d71f', // rsETH/USD,
       },
     },
+    '0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b': {
+      name: 'AZEx Token',
+      symbol: 'AZT',
+      decimals: 18,
+      logoURI:
+        'https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b.png',
+    },
   },
 }

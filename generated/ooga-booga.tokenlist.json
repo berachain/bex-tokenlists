@@ -343,6 +343,14 @@
             "name": "Nectar",
             "symbol": "NECT",
             "decimals": 18
+        },
+        {
+            "chainId": 80094,
+            "address": "0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b",
+            "name": "AZEx Token",
+            "symbol": "AZT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b.png",
         }
     ]
 }
