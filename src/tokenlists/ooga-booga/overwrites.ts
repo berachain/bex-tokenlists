@@ -200,5 +200,19 @@ export const overwrites: OverwritesForList = {
           '0x0caec284d34d836ca325cf7b3256c078c597bc052fbd3c0283d52b581d68d71f', // rsETH/USD,
       },
     },
+    '0x6d4223dae2a8744a85a6d44e97f3f61679f87ee6': {
+      name: 'USDbr',
+      symbol: 'USDbr',
+      decimals: 18,
+      logoURI:
+        'https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x6d4223dae2a8744a85a6d44e97f3f61679f87ee6.png',
+    },
+    '0xfaf4c16847bd0ebac546c49a9c9c6b81abd4b08c': {
+      name: 'NOME',
+      symbol: 'NOME',
+      decimals: 18,
+      logoURI:
+        'https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xfaf4c16847bd0ebac546c49a9c9c6b81abd4b08c.png',
+    },
   },
 }
