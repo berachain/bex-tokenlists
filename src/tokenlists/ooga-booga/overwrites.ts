@@ -76,6 +76,7 @@ export const overwrites: OverwritesForList = {
     // TODO: Add beraETH once it's on Coingecko or Pyth, using WETH/USD price for now
     '0x6fc6545d5cDE268D5C7f1e476D444F39c995120d': {
       extensions: {
+        coingeckoId: 'berachain-staked-eth',
         pythPriceId:
           '0x9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6', // WETH/USD,
       },
@@ -198,6 +199,11 @@ export const overwrites: OverwritesForList = {
         coingeckoId: 'kelp-dao-restaked-eth',
         pythPriceId:
           '0x0caec284d34d836ca325cf7b3256c078c597bc052fbd3c0283d52b581d68d71f', // rsETH/USD,
+      },
+    },
+    '0x09D9420332bff75522a45FcFf4855F82a0a3ff50': {
+      extensions: {
+        coingeckoId: 'dinero-2',
       },
     },
   },
